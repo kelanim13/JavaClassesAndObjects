@@ -1,4 +1,4 @@
-package custom;
+package customclass;
 
 public class Show {
 	
@@ -19,19 +19,19 @@ public class Show {
 	
 	// 2 of 3 variables
 	
-	public Show(String showCast, Integer showSeasons)
+	public Show(String castMember, Integer showSeasons)
 	{
-		this.cast = showCast; 
+		this.cast = castMember; 
 		this.seasons = showSeasons; 
 	}
 	
 	//all 3 variables
 	
-	public Show(String showTitle, String tvCast, Integer tvSeasons)
+	public Show(String showTitle, String castMember, Integer showSeasons)
 	{
 		this.title = showTitle; 
-		this.cast = tvCast; 
-		this.seasons = tvSeasons; 
+		this.cast = castMember; 
+		this.seasons = showSeasons; 
 	}
 	
 	//Get Methods
@@ -41,7 +41,7 @@ public class Show {
 		return title; 
 	}
 	
-	public String getCast()
+	public String getCastMember()
 	{
 		return cast; 
 	}
