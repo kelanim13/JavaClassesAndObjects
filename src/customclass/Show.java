@@ -12,9 +12,9 @@ public class Show {
 	
 	public Show()
 	{
-		title = "miscellaneous"; 
-		cast = ""; 
-		seasons = 0; 
+		title = "NCIS"; 
+		cast = "Mark Harmon"; 
+		seasons = 8; 
 	}
 	
 	// 2 of 3 variables

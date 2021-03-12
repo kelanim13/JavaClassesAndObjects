@@ -12,10 +12,10 @@ public class Pet {
 	//Empty constructor
 	
 	public Pet() {
-		name = ""; 
-		age = 0; 
-		location = ""; 
-		type = ""; 
+		name = "Kula"; 
+		age = 7; 
+		location = "Sao Paolo"; 
+		type = "Golden Retriever"; 
 	}
 	
 	//All attributes
