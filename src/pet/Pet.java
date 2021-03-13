@@ -47,12 +47,12 @@ public class Pet {
 	
 	//Set Methods
 	
-	public void changeName(String newName)
+	public void setName(String newName)
 	{
 		this.name = newName; 
 	}
 	
-	public void changeAge(Integer newAge)
+	public void setAge(Integer newAge)
 	{
 		if (age >= 1 && age <= 16)
 		{
@@ -65,7 +65,7 @@ public class Pet {
 		
 	}
 	
-	public void changeLocation(String newLocation)
+	public void setLocation(String newLocation)
 	{
 		this.location = newLocation; 
 	}
