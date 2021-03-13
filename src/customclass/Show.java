@@ -69,9 +69,9 @@ public class Show {
 	}
 	
 	//Method that returns a boolean
-	boolean isSeasonLong()
+	public boolean isSeasonLong()
 	{
-		if(seasons > 15)
+		if(seasons >= 15)
 		{
 			return true; 
 		}
@@ -82,7 +82,7 @@ public class Show {
 	
 	public String showReview()
 	{
-		return this.title + "is an excellent show!" + "Even though there are" + this.seasons + "seasons," + this.cast + "is top notch!"; 	
+		return this.title + " is an excellent show! " + "Even though there are " + this.seasons + " seasons, " + this.cast + " is top notch!"; 	
 	}
 }
 

@@ -54,7 +54,15 @@ public class Pet {
 	
 	public void changeAge(Integer newAge)
 	{
-		this.age = newAge; 
+		if (age >= 1 && age <= 16)
+		{
+			this.age = newAge; 
+		}
+		else
+		{
+			this.age = 2; 
+		}
+		
 	}
 	
 	public void changeLocation(String newLocation)

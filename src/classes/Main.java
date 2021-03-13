@@ -33,6 +33,8 @@ public class Main {
 		System.out.println(criminalMinds.getCastMember()); 
 		System.out.println(criminalMinds.getTitle()); 
 		System.out.println(criminalMinds.getSeasons());
+		System.out.println(criminalMinds.showReview());
+		
 		
 		Show gilmoreGirls = new Show("Gilmore Girls", "Lauren Graham", 7); 
 		
