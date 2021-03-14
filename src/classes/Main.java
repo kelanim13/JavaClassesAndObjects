@@ -13,9 +13,9 @@ public class Main {
 		dog.getPetAge();
 		dog.getPetLocation();
 		
-		dog.changeAge(9);
-		dog.changeLocation("Honolulu, HI");
-		dog.changeName("Buddy");
+		dog.setAge(9);
+		dog.setLocation("Honolulu, HI");
+		dog.setName("Buddy");
 		
 		dog.getPetAge();  
 		dog.getPetName();
