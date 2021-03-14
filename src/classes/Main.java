@@ -44,5 +44,11 @@ public class Main {
 		Show greysAnatomy = new Show("Grey's Anatomy", "Ellen Pompeo", 17);   
 		
 		System.out.println(greysAnatomy.getSeasons()); 
+		System.out.println(greysAnatomy.getCastMember()); 
+		
+		Show lawAndOrder = new Show("Law and Order SVU", "Mariska Hargitay", 22); 
+		
+		lawAndOrder.setCast("Kelli Giddish");
+		System.out.println(lawAndOrder.getCastMember()); 
 	}
 }
